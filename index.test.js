@@ -7,3 +7,7 @@ test(' empty string ', () => {
 test(' return 1 ', () => {
   expect(INDEX.add('1')).toBe(1);
 });
+
+test(' return 3 ', () => {
+    expect(INDEX.add('1,2')).toBe(3);
+});
