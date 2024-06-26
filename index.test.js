@@ -1,5 +1,5 @@
 const INDEX = require('./index');
 
-test('Simple Calculator', () => {
-  expect(INDEX.simpleCalculator('',1)).toBe(1)
+test(' empty string ', () => {
+  expect(INDEX.simpleCalculator('')).toBe(0)
 });

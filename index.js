@@ -1,8 +1,7 @@
-function simpleCalculator(a,b){
+function simpleCalculator(a){
   if(a === ''){
-    return 0 + b;
+    return 0;
   }
-  return a + b;
 }
 
 module.exports = {
