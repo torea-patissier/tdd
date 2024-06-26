@@ -1,9 +1,10 @@
-function simpleCalculator(a){
+function add(a){
   if(a === ''){
     return 0;
   }
+  return Number(a);
 }
 
 module.exports = {
-    simpleCalculator
+    add
 };
